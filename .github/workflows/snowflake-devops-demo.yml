@@ -41,5 +41,7 @@ jobs:
           
           echo "Step 2: Running pwd"
           pwd
+          echo "Step 2a: Running ls"
+          ls
           echo "Step 3: Running schemachange"
           # schemachange -f $GITHUB_WORKSPACE/migrations 
