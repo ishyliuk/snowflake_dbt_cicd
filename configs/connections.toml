@@ -1,0 +1,7 @@
+[myconnection]
+account = ${{ secrets.SF_ACCOUNT }}
+user = ${{ secrets.SF_USERNAME }}
+password = ${{ secrets.SF_PASSWORD }}
+warehouse = ${{ secrets.SF_WAREHOUSE }}
+database = ${{ secrets.SF_DATABASE }}
+role = ${{ secrets.SF_ROLE }}
